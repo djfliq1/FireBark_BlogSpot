@@ -1,7 +1,11 @@
 header {
   height:400px;
-  background:url(../../assets/img/firsBarkBackground1.jpg) no-repeat center;
+  /*background:url(../../assets/img/firsBarkBackground.jpg) no-repeat center;*/
   background-size:cover;
+  font-family:Roboto, sans-serif;
+  background-color:rgba(125,123,123,0.2);
+  margin:0px;
+  padding:0px;
 }
 
 .navbar-nav {
@@ -56,8 +60,10 @@ nav.navbar.navbar-default {
 
 .navbar-brand span.text-title {
   text-transform:uppercase;
-  font-weight:bold;
+  /*font-weight:bold;*/
   color:rgb(248,246,245);
+  font-size:60px;
+  font-family:'Just Me Again Down Here', cursive;
 }
 
 @media (max-width:767px) {
@@ -87,6 +93,7 @@ nav.navbar.navbar-default {
 .categories {
   text-align:center !important;
   margin-bottom:20px;
+  /*border-bottom:1px solid #e4e4e4;*/
   padding:10px;
 }
 
@@ -124,12 +131,14 @@ nav.navbar.navbar-default {
   font-weight:bold;
   margin-top:30px;
   color:rgb(130,2,2);
+  font-size:xx-large;
 }
 
 @media (max-width:767px) {
   .post-title h1 {
+    margin:64px;
     margin-top:20px;
-    font-size:56px;
+    font-size:18px;
     margin-bottom:10px;
     color:rgb(130,2,2);
   }
